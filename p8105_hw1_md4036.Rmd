@@ -83,7 +83,7 @@ as.numeric (factor(homework1_df$vec_char))
 as.numeric (homework1_df$vec_factor)
 ```
 
-
+After using as.numeric, it converted the logical, character and factor variables into numeric values. The mean of the "vec_logic" variable is now able to be calculated. This variable was coded as 0=FALSE and 1=TRUE and after averaging all of the "vec_logic" results, it found the average to be `r mean(pull(homework1_df, vec_logic))`. Additionally, the "vec_char" variable was converted to numbers 1-10 from a-j and "vec_factor" was converted and coded as 2 = "low", 3 = "medium", and 1 = "high". With this information, the means can now be calculated for "vec_char" and "vec_factor".
 
 
 
