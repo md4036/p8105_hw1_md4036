@@ -1,7 +1,7 @@
 ---
 title: "p8105_hw1_md4036"
-author: "Margaret"
-date: "2022-09-22"
+author: "Margaret Ding"
+date: "2022-09-23"
 output: github_document
 ---
 
@@ -14,7 +14,7 @@ library(tidyverse)
 
 # Problem 1
 
-We are downloading and displaying the "Penguins" dataset here.
+We are downloading and displaying the "Penguins" dataset here:
 
 ```{r loading penguins package}
 data("penguins", package = "palmerpenguins")
